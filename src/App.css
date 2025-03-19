@@ -1,9 +1,3 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 body {
   padding: 50px;
   color: #f7f7f7;
@@ -15,7 +9,7 @@ body {
 
 .App {
   padding: 1rem;
-  max-width: 50%;
+  max-width: 60%;
   margin: 0 auto;
   text-align: center;
   background: #333;
@@ -30,10 +24,6 @@ h1 {
   text-transform: uppercase;
 }
 
-.input-wrapper {
-  margin: 3.5rem;
-}
-
 .todos-wrapper {
   margin-bottom: 2.5rem;
 }
@@ -44,8 +34,12 @@ h1 {
   align-items: flex-start;
 }
 
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 input {
-  width: 450px;
   padding: 0.8em;
 }
 
