@@ -27,7 +27,7 @@ jobs:
     - run: npm test
 
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v4
+      uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.PAGES_TOKEN_190325 }}
         publish_dir: public
