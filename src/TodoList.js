@@ -6,7 +6,7 @@ export const TodoList = ({ list, remove }) => {
       {list?.length > 0 ? (
         <ul className="todo-list">
           {list.map((entry, index) => (
-            <div className="testinggg">
+            <div className="todo">
               <li key={index}> {entry} </li>
 
               <button
